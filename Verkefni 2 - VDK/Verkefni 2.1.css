@@ -1,0 +1,37 @@
+h1{
+    border: 1px solid green;
+}
+
+h2{
+    border: 3px dashed blue;
+    color: blue;
+}
+
+div{
+    border: 3px solid red;
+}
+
+.bil{
+    margin: 20px;
+    padding: 20px;
+}
+
+.ekkertbil{
+    margin: 30px;
+    padding: 30px;
+}
+
+.hybridbill{
+    margin: 30px;
+    padding: 2px;
+}
+
+.raudurhybrid{
+    margin: 30px;
+    padding: 2px;
+    color: red;
+}
+
+.redtext{
+    color: red;
+}

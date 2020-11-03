@@ -1,0 +1,23 @@
+header, section, footer, aside{
+    margin: 0 1.5% 24px 1.5%;
+}
+
+section{
+    border: 1px solid black;
+    width: 25%;
+    padding: 20px;
+    display: flex;
+    float: left;
+}
+
+aside{
+    border: 1px solid black;
+    width: 63%;
+    padding: 20px;
+    display: flex;
+    float: right;
+}
+
+img{
+    float: right;
+}

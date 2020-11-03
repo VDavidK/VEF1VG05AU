@@ -1,0 +1,71 @@
+header, nav, aside, article, main, footer{
+    border: 0.5px solid black;
+    padding: 8px;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "h h h n n"
+    "v a a a r"
+    "f f f f f";
+}
+
+.haus{
+    grid-area: h;
+}
+
+.valstika{
+    grid-area: n;
+}
+
+.vinstri{
+    grid-area: v;
+}
+
+.adal{
+    grid-area: a;
+}
+
+.haegri{
+    grid-area: r;
+}
+
+.fotur{
+    grid-area: f;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5px;
+    align-items: center;
+    justify-items: center;
+    height: 2em;
+}
+
+.hlekkir{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+    height: 4em;
+}
+
+.hlekkir2{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: left;
+}
+
+h1{
+    font-style: italic;
+    text-align: center;
+    font-size: 50px;
+    color: darkslategray;
+}
+
+.kassi{
+    border: 1px solid black;
+    padding: 15px;
+    margin: 30px;
+}

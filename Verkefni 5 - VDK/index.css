@@ -1,0 +1,64 @@
+html{
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(blue, cyan);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.midja{
+    background: linear-gradient(yellow, lightyellow);
+    opacity: 85%;
+}
+
+.hastafir{
+    text-transform: uppercase;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.tveirDalkar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.thrirDalkar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+blockquote{
+    background-color: white;
+    opacity: 70%;
+    padding: 15px;
+    margin: 20px;
+}
+
+header, footer{
+    color: white;
+}
+
+.topnav{
+    text-align: right;
+    margin: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.verkefni{
+    text-align: right;
+}
+
+a:visited{
+    color: white;
+}
+
+.bilfyrirdalka{
+    margin: 15px;
+}

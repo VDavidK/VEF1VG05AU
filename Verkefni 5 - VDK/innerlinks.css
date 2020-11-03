@@ -1,0 +1,89 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: rgb(86, 86, 226);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.midja{
+    background: linear-gradient(yellow, lightyellow);
+    opacity: 85%;
+}
+
+.hastafir{
+    text-transform: uppercase
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.tveirDalkar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.thrirDalkar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.fimmDalkar{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+.blarDalkur{
+    align-self: center;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+header, footer{
+    color: white;
+}
+
+.topnav{
+    text-align: right;
+    margin: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.verkefni{
+    text-align: right;
+}
+
+.innermenu a{
+    border: 1.5px solid white;
+    background-color: blue;
+    text-align: center;
+    align-content: center;
+    padding: 6.5px;
+    color: cyan;
+}
+
+.pila{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 2em;
+    background: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    text-align: center;
+    color: black;
+    line-height: 70px;
+}
+
+.pila:hover{
+    color: green;
+}

@@ -1,0 +1,158 @@
+header, nav, aside, article, main, footer{
+    padding: 8px;
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+a:hover{
+    background: limegreen;
+}
+
+@media screen and (max-width: 37.5em){
+body{
+        background-color: rgb(212, 207, 126);
+        display: grid;
+        grid-template-areas:
+        "h"
+        "v"
+        "a"
+        "r"
+        "f"
+        "t"
+    }
+    
+    .header{
+        background-color: orangered;
+        grid-area: h;
+    }
+    
+    .main{
+        background-color: cyan;
+        grid-area: a;
+    }
+    
+    .footer{
+        background-color: lime;
+        grid-area: f;
+    }
+    
+    .topmenu{
+        background-color: darkgreen;
+        grid-area: t;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        padding: 5px;
+        justify-items: center;
+    }
+
+    .vinstri{
+        grid-area: v;
+        background-color: yellow;
+    }
+    
+    .haegri{
+        grid-area: r;
+        background-color: hotpink;
+    }
+    
+}
+@media screen and (min-width: 37.5em){
+    body{
+        background-color: rgb(212, 207, 126);
+        display: grid;
+        grid-template-areas:
+        "t t t t t t"
+        "h h h h h h"
+        "r r a a a a"
+        "v v a a a a"
+        "f f f f f f"
+    }
+    
+    .header{
+        background-color: orangered;
+        grid-area: h;
+    }
+    
+    .main{
+        background-color: cyan;
+        grid-area: a;
+    }
+    
+    .footer{
+        background-color: lime;
+        grid-area: f;
+    }
+    
+    .topmenu{
+        background-color: darkgreen;
+        grid-area: t;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 5px;
+        justify-items: center;
+    }
+    
+    .vinstri{
+        grid-area: v;
+        background-color: yellow;
+    }
+    
+    .haegri{
+        grid-area: r;
+        background-color: yellow;
+    }
+    
+}
+@media screen and (min-width: 48em){
+    body{
+        background-color: rgb(212, 207, 126);
+        display: grid;
+        grid-template-areas:
+        "t t t t t t"
+        "h h h h h h"
+        "v a a a a r"
+        "f f f f f f"
+    }
+    
+    .header{
+        background-color: orangered;
+        grid-area: h;
+    }
+    
+    .main{
+        background-color: cyan;
+        grid-area: a;
+    }
+    
+    .footer{
+        background-color: lime;
+        grid-area: f;
+    }
+    
+    .topmenu{
+        background-color: darkgreen;
+        grid-area: t;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 5px;
+        align-items: center;
+    }
+    .vinstri{
+        grid-area: v;
+        background-color: yellow;
+    }
+    
+    .haegri{
+        grid-area: r;
+        background-color: hotpink;
+    }
+    
+}
