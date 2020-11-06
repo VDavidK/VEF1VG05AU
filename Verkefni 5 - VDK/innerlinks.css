@@ -84,8 +84,8 @@ header, footer{
     line-height: 70px;
 }
 
-.pila:hover{
-    color: green;
+.pila:visited{
+    color: black;
 }
 
 a:visited{
