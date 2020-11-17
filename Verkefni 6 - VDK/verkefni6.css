@@ -1,0 +1,123 @@
+body, section{
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+    background-color: midnightblue;
+}
+
+.A{
+    display: flex;
+    justify-content: center;
+    background: darkblue;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.B{
+    background: linear-gradient(sandybrown, lightyellow);
+    height: 100vh;
+}
+
+.F{
+    display: flex;
+    justify-items: center;
+    background: midnightblue;
+    height: 20vh;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+}
+
+.hringur{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 40em;
+    width: 40em;
+    background: radial-gradient(darkblue, cyan);
+    border-radius: 50%;
+}
+
+.bigtext{
+    font-family: 'Fredericka the Great', cursive;
+    color: whitesmoke;
+    text-shadow:
+		-2px -2px 0 #000,
+		2px -2px 0 #000,
+		-2px 2px 0 #000,
+        2px 2px 0 #000;
+}
+
+.bigletters{
+    font-family: 'Fredericka the Great', cursive;
+    color: lightblue;
+    font-size: 80px;
+    text-shadow:
+		-2px -2px 0 #000,
+		2px -2px 0 #000,
+		-2px 2px 0 #000,
+        2px 2px 0 #000;
+}
+
+.midjun{
+    align-self: center;
+    font-size: 80px;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container2{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.tveirDalkar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bilfyrirdalka{
+    margin: 30px;
+}
+
+.topnav{
+    padding: 12px;
+    align-self: center;
+    background: linear-gradient(blue, midnightblue);
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.topnav, a:visited{
+    color: white;
+}
+.topnav, a:active{
+    color: white;
+}
+
+blockquote{
+    background-color: white;
+    opacity: 70%;
+    padding: 15px;
+    margin: 20px;
+}
+
+.thrirDalkar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.fjorirDalkar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 70%;
+    justify-items: center;
+}
