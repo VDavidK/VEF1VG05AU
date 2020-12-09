@@ -1,0 +1,348 @@
+@media screen and (max-width: 37.5em){
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    body{
+        background-color: darkslategrey;
+    }
+
+    .midja{
+        display: flex;
+        width: 100%;
+        background-color: darkgrey;
+        align-self: center;
+        margin: auto;
+        text-align: left;
+    }
+
+    .titill{
+        margin: 10px;
+        justify-self: center;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-self: center;
+        margin: auto;
+        text-transform: uppercase;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 20px;
+    }
+
+    .innermenu{
+        align-self: center;
+        padding: 5px;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        background-color: black;
+        border: 1px solid white;
+        text-align: center;
+        align-content: center;
+        color: white;
+        margin: 0 auto;
+    }
+
+    a:visited, a{
+        color: white;
+    }
+
+    .innermenu{
+        border: 1px solid white;
+    }
+
+    .myndirgrid{
+        grid-template-areas:
+        "m t t t"
+        "m t t t"
+        "m t t t";
+    }
+
+    article{
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        padding: 10px 0 0 0;
+        border: 2px solid black;
+    }
+    
+    .annarsection{
+        grid-template-areas:
+        "k"
+        "k"
+        "k"
+        "k";
+        width: 100%;
+        border: 1px solid black;
+        background-color: white;
+        align-self: center;
+        margin: auto;
+    }
+    .mynd{
+        grid-area: k;
+        width: 100%;
+        padding: 1px;
+    }
+
+    .F{
+        display: flex;
+        color: white;
+        width: 100%;
+        justify-items: center;
+        margin: 0 auto;
+        border: 1px solid black;
+    }
+
+    .upplysingar{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .hljod{
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        justify-self: center;
+    }
+    
+    .myndband{
+        grid-area: m;
+        width: 14%;
+    }
+
+    .myndbond{
+        grid-template-areas:
+        "m m m m m";
+    }
+
+}
+
+@media screen and (min-width: 37.5em) and (max-width: 48em){
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    body{
+        background-color: darkslategrey;
+    }
+    
+    .midja{
+        display: flex;
+        width: 100%;
+        background-color: darkgrey;
+        align-self: center;
+        margin: auto;
+        text-align: left;
+    }
+
+    .titill{
+        margin: 10px;
+        justify-self: center;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-self: center;
+        margin: auto;
+        text-transform: uppercase;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 20px;
+    }
+
+    .innermenu{
+        align-self: center;
+        padding: 5px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        background-color: black;
+        border: 1px solid white;
+        text-align: center;
+        align-content: center;
+        padding: 6.5px;
+        color: white;
+        margin: 0;
+    }
+
+    a:visited, a{
+        color: white;
+    }
+
+    .innermenu{
+        border: 1px solid white;
+    }
+
+    .myndirgrid{
+        grid-template-areas:
+        "m t t t"
+        "m t t t"
+        "m t t t";
+    }
+
+    article{
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        padding: 10px 0 0 0;
+    }
+    
+    .annarsection{
+        grid-template-areas:
+        "k"
+        "k"
+        "k"
+        "k";
+        width: 100%;
+        border: 1px solid black;
+        background-color: white;
+        align-self: center;
+        margin: auto;
+    }
+    .mynd{
+        grid-area: k;
+        width: 100%;
+        padding: 1px;
+    }
+
+    .F{
+        display: flex;
+        color: white;
+        width: 100%;
+        justify-items: center;
+        margin: 0 auto;
+        border: 1px solid black;
+    }
+
+    .upplysingar{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 1em;
+    }
+
+    .hljod{
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        justify-self: center;
+    }
+    
+    .myndband{
+        grid-area: m;
+        width: 14%;
+    }
+
+    .myndbond{
+        grid-template-areas:
+        "m m m m m";
+    }
+
+}
+
+@media screen and (min-width: 48em){
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    body{
+        background-color: darkslategrey;
+    }
+
+    .midja{
+        display: flex;
+        width: 70%;
+        background-color: darkgrey;
+        align-self: center;
+        margin: auto;
+        text-align: left;
+    }
+
+    .titill{
+        margin: 10px;
+        justify-self: center;
+        display: flex;
+        width: 70%;
+        justify-content: center;
+        align-self: center;
+        margin: auto;
+        text-transform: uppercase;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 20px;
+    }
+
+    .innermenu{
+        align-self: center;
+        padding: 5px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        background-color: black;
+        border: 1px solid white;
+        text-align: center;
+        align-content: center;
+        padding: 6.5px;
+        color: white;
+        margin: 0;
+    }
+
+    a:visited, a{
+        color: white;
+    }
+
+    .myndirgrid{
+        border: 1px solid black;
+        grid-template-areas:
+        "m t t t"
+        "m t t t"
+        "m t t t";
+    }
+
+    article{
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        padding: 10px 0 0 0;
+    }
+    
+    .annarsection{
+        grid-template-areas:
+        "k"
+        "k"
+        "k"
+        "k";
+        width: 70%;
+        border: 1px solid black;
+        background-color: white;
+        align-self: center;
+        margin: auto;
+    }
+    .mynd{
+        grid-area: k;
+        width: 100%;
+        padding-left: 5px;
+    }
+
+    .F{
+        display: flex;
+        color: white;
+        width: 70%;
+        justify-items: center;
+        margin: 0 auto;
+        border: 1px solid black;
+    }
+
+    .upplysingar{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 1em;
+    }
+
+    .hljod{
+        margin: 0 auto;
+        width: 70%;
+        display: flex;
+        justify-self: center;
+    }
+    
+    .myndband{
+        grid-area: m;
+        width: 14%;
+    }
+
+    .myndbond{
+        grid-template-areas:
+        "m m m m m";
+    }
+}
